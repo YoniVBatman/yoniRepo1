@@ -24,7 +24,7 @@ namespace ConsoleApp1
             int OnumFilms = int.Parse(Console.ReadLine());
             Other b = new Other(OnumFilms);
 
-            switch (a.Compare(a, b))
+            switch (a.Compare(other))
             {
                 case 1:
                     Console.WriteLine("Actor is more Famous");
