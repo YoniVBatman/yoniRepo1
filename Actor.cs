@@ -34,11 +34,11 @@ namespace ConsoleApp1
             numFilms++;
         }
 
-        public int Compare(Actor actor, Other other)
+        public int Compare(Actor other)
         {
-            if (actor.getNumFilms() > other.getNumFilms())
+            if (this.getNumFilms() > other.getNumFilms())
                 return 1;
-            else if (actor.getNumFilms() < other.getNumFilms())
+            else if (this.getNumFilms() < other.getNumFilms())
                 return 2;
             else 
                 return 3;
